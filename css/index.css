@@ -1,0 +1,17 @@
+*, 
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+/* CAROUSEL */
+.carousel{
+    background-image: url(../images/pic2.png);
+}
+.list-group-item{
+    border: none!important;
+}
