@@ -7,10 +7,35 @@
 }
 
 /* HEADER */
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 50;
+   width: 100%;
+   
+}
 
 /* CAROUSEL */
 .carousel{
+    position: relative;
     background-image: url(../images/pic2.png);
+    background-position: top;
+    background-size: 100%;
+
+}
+.carousel .carousel__wrap{
+    margin: 10% 5%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.carousel.carousel__img img {
+    justify-content: end!important;
+    object-fit: cover;
+    width: 100%;
+    
 }
 .list-group-item{
     border: none!important;
